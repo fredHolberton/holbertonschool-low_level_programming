@@ -10,7 +10,7 @@ int _atoi(char *s)
 {
 	int i = 0;
 	int ichar;
-	int atoi = 0;
+	unsigned int atoi = 0;
 	int sign = 1;
 	int firstNumberFind = 0;
 	int lastNumberFind = 0;
