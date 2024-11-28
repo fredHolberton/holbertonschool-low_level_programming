@@ -25,7 +25,7 @@ int _atoi(char *s)
 			if (ichar >= 0 && ichar <= 9)
 			{
 				atoi = (10 * atoi) + ichar;
-				firstNumberFind = 1; 
+				firstNumberFind = 1;
 			}
 			if (firstNumberFind == 0 && s[i] == '-')
 				sign = sign * -1;
