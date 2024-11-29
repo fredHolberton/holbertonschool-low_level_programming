@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * add_dnodeint_end - frees a dlistint_t list.
+ *  free_dlistint - frees a dlistint_t list.
  * @head: pointer of the head of a doubly liked list
  *
  */
